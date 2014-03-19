@@ -40,7 +40,7 @@
 
   "Often you will need to get the keys, but the order is undependable"
   (= (list 2006 2010 2014)
-     (sort (keys {2006 "Torino" 2010 "Vancouver" 2014 "Sochi"})))
+     (sort (keys {2010 "Vancouver" 2014 "Sochi" 2006 "Torino"})))
 
   "You can get the values in a similar way"
   (= (list "Sochi" "Torino" "Vancouver")
